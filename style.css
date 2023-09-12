@@ -1,0 +1,102 @@
+/* direct font import - has to be in the same directory as this file */ 
+@font-face { font-family: BruceForeverRegular; src: url('BruceForeverRegular-X3jd2.ttf'); }
+
+/* "CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* BODY */
+body {
+    background-color: #242038;
+    text-align: center;
+}
+
+ul {
+    list-style: none inside;  
+}
+
+
+
+/* HEADER inc. NAV */
+header {
+    margin: 0.5% auto 0.5% auto;
+    font-family: BruceForeverRegular;
+    color: #FEEA00;
+    font-size: 120%;
+    margin: 2%;
+    padding: 0.5°%;    
+    }
+    
+    header h1 {
+        font-size: 300%;
+        }
+
+
+
+/* NAV inherits from HEADER */    
+nav {
+    width: 800px;
+    margin: 0.5% auto 0.5% auto;
+}
+
+    nav a, a:active, a:visited {
+        display: block;
+        color: #F7ECE1;
+        padding: 16px;
+        text-decoration: none;
+        float: left;
+        margin: 0.6%;
+        }
+
+    nav a:hover, a:focus {
+        color: #9067C6;
+        background-color: #F7ECE1;
+        }
+      
+      
+        
+/* MAIN */
+main {
+    max-width: 800px;
+    color: #F7ECE1;
+    margin: 0.5% auto 0.5% auto;
+    font-family: sans-serif;
+    text-align: center;
+}   
+
+    main h1 {
+        font-size: 190%;
+        font-family: BruceForeverRegular;
+        color: #9067C6;
+    }
+
+
+
+/* CONTENT WRAPPER */   
+.contentWrapper {
+    margin: 0.3%;
+    padding: 0.1%;
+    outline: 2px dashed #48233C;
+    width: 800px;
+    min-height: 190px;
+    text-align: normal;
+    line-height: 1.4;
+    font-size: 120%;
+}
+
+    .contentWrapper img {
+        border: 2px solid #F7ECE1;
+        border-radius: 3px;  
+        width: 180px;
+        height: 180px;
+        float: left;
+        vertical-align: center;
+        margin: 0.5%;
+    }
+    
+
